@@ -51,8 +51,6 @@ dotsync/bin:bin
 #ruby/aprc
 #ruby/caprc
 #screen/screenrc
-#shell/hushlogin
-#shell/urlview
 #ssh
 #subversion
 #task/task
@@ -60,11 +58,21 @@ dotsync/bin:bin
 #tmux/tmux.conf
 #tmux/tmuxinator
 #vim/dotvim:.vim
-#vim/vimrc
-#vim/gvimrc
-#wget/wgetrc
-#zsh/fasdrc
-#zsh/dotzsh:.zsh
+vim/vimrc
+vim/vimrc.ctrlp
+vim/vimrc.explug
+vim/vimrc.statusline
+vim/vimrc.vimplug
+vim/vimrc.complete
+vim/vimrc.discard
+vim/vimrc.language
+vim/vimrc.unitvim
+vim/ftdetect:.vim/ftdetect
+vim/tools:.vim/tools
+vim/autoload:.vim/autoload
+vim/snippets:snippets
+nvim:.config/nvim
+bash/bashrc
 zsh/zcompdump
 zsh/zsh-update
 zsh/zsh_history
@@ -72,6 +80,8 @@ zsh/zshrc
 zsh/powerlevel9k.zshrc
 oh-my-zsh
 mshell
+# todo
+todo
 [endfiles]
 
 ## hostname                     type=masterhost, ANY or NONE    files=dotfile:tolink,another:tolink

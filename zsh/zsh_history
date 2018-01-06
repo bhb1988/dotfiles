@@ -1667,3 +1667,198 @@
 : 1515230644:0;ls
 : 1515230653:0;dotsync -P
 : 1515230681:0;git add cheat/ dotsyncrc mshell/ rsyncignore zsh
+: 1515230702:0;git commit -m "‰∏É™‰ºÉÄzshÁ≠É©"
+: 1515230708:0;git push origin master
+: 1515231051:0;ls
+: 1515231196:0;mkdir vim
+: 1515231232:0;mkdir nvim
+: 1515231238:0;cd nvim
+: 1515231243:0;cd
+: 1515231245:0;cd .config
+: 1515231246:0;ls
+: 1515231248:0;cd nvim
+: 1515231249:0;ls
+: 1515231251:0;more init.vim
+: 1515231358:0;cp init.vim ~/.dotfiles/nvim
+: 1515231405:0;cd ..
+: 1515231410:0;tree nvim
+: 1515231415:0;dotsync -L
+: 1515231424:0;cd ..
+: 1515231425:0;la
+: 1515231426:0;ll
+: 1515231437:0;cd nvim
+: 1515231438:0;ls
+: 1515231440:0;cd ..
+: 1515231475:0;nvim
+: 1515231491:0;cd
+: 1515231493:0;ls
+: 1515231502:0;la
+: 1515231526:0;cp .vimrc* .dotfiles/vim
+: 1515231577:0;cd vim
+: 1515231578:0;ls
+: 1515231585:0;la
+: 1515231601:0;mv .vimrc vimrc
+: 1515231619:0;mv .vimrc.complete vimrc.complete
+: 1515231626:0;mv .vimrc.complete vimrc.ctrlp
+: 1515231633:0;mv .vimrc.ctrlp vimrc.ctrlp
+: 1515231644:0;mv .vimrc.discard vimrc.discard
+: 1515231657:0;mv .vimrc.explug vimrc.explug
+: 1515231669:0;mv .vimrc.language vimrc.language
+: 1515231683:0;mv .vimrc.statusline vimrc.statusline
+: 1515231699:0;mv .vimrc.unitvim vimrc.unitvim
+: 1515231711:0;mv .vimrc.vimplug vimrc.vimplug
+: 1515231713:0;la
+: 1515231734:0;cd vim
+: 1515231734:0;ls
+: 1515231847:0;dotsync -L
+: 1515231851:0;nvim
+: 1515231857:0;cd
+: 1515231859:0;la
+: 1515231862:0;ll
+: 1515231866:0;kla
+: 1515231876:0;git status
+: 1515231902:0;cd .vim
+: 1515231903:0;ls
+: 1515231907:0;cd tools
+: 1515231910:0;la
+: 1515231919:0;cd ..
+: 1515231921:0;la
+: 1515231931:0;cd autoload
+: 1515231932:0;ls
+: 1515231934:0;cd ..
+: 1515233483:0;cd .dotfiles/vim
+: 1515233484:0;ls
+: 1515233579:0;mkdir ftdetect
+: 1515233619:0;dotsync -L
+: 1515233623:0;ls
+: 1515233625:0;ll
+: 1515233657:0;mv tools ~/.dotfiles/vim
+: 1515233668:0;ls
+: 1515233700:0;mv autoload ~/.dotfiles/vim
+: 1515233718:0;dotsync -L
+: 1515233727:0;ls
+: 1515233736:0;ll
+: 1515233750:0;vim
+: 1515233755:0;nvim
+: 1515233895:0;cd
+: 1515233899:0;cd .backup
+: 1515233899:0;ls
+: 1515233901:0;la
+: 1515233916:0;rm -rf .dotfiles
+: 1515233923:0;cd
+: 1515233925:0;ls
+: 1515233930:0;git status
+: 1515233943:0;cd .dotfiles
+: 1515233944:0;ls
+: 1515233948:0;gst
+: 1515233978:0;rm -rf .git
+: 1515233981:0;ls
+: 1515233984:0;cd ..
+: 1515233985:0;rm -rf .git
+: 1515233998:0;rm README.md
+: 1515234000:0;ls
+: 1515234003:0;kla
+: 1515234025:0;mv compile_vim.sh .dotfiles/vim
+: 1515234035:0;cd .todo
+: 1515234036:0;ls
+: 1515234043:0;cd ..
+: 1515234064:0;mv .todo .dotfiles/todo
+: 1515234120:0;dotsync -L
+: 1515234141:0;cd .vim
+: 1515234142:0;ls
+: 1515234154:0;rm vimdetect
+: 1515234156:0;ls
+: 1515234157:0;ll
+: 1515234176:0;cd
+: 1515234176:0;la
+: 1515234188:0;kla
+: 1515234253:0;cd mtools
+: 1515234253:0;ls
+: 1515234255:0;cd bin
+: 1515234256:0;ls
+: 1515234264:0;cd ..
+: 1515234289:0;rm -rf mtools
+: 1515234312:0;clear
+: 1515234314:0;cd .dotfiles
+: 1515234315:0;ls
+: 1515234319:0;gst
+: 1515234327:0;exit
+: 1515235192:0;cd .vim
+: 1515235195:0;cd
+: 1515235196:0;cd .vim
+: 1515235197:0;ls
+: 1515235198:0;ll
+: 1515235207:0;rm ftdetect
+: 1515235211:0;dotsync -L
+: 1515235214:0;ll
+: 1515235228:0;rm ftdetect
+: 1515235232:0;dotsync -L
+: 1515235234:0;ls
+: 1515235235:0;ll
+: 1515235238:0;cd
+: 1515235242:0;kla
+: 1515235250:0;rm nnippt
+: 1515235283:0;mv snippets .dotfiles/vim/
+: 1515235305:0;dotsync -L
+: 1515235309:0;kla
+: 1515235343:0;rm .bashrc_me
+: 1515235389:0;cd .dotfiles
+: 1515235389:0;ls
+: 1515235393:0;mkdir bash
+: 1515235399:0;mv .bashrc .dotfiles/bash/bashrc
+: 1515235402:0;cd bash
+: 1515235403:0;ls
+: 1515235428:0;cd mmm
+: 1515235429:0;ls
+: 1515235441:0;ll
+: 1515235450:0;more config
+: 1515235458:0;cd ..
+: 1515235462:0;rm -rf mmm
+: 1515235578:0;clear
+: 1515235609:0;cd ..
+: 1515235611:0;cd vim
+: 1515235612:0;ls
+: 1515235623:0;touch README.MD
+: 1515235629:0;mv README.MD README.md
+: 1515235803:0;cd ..
+: 1515235804:0;ls
+: 1515235870:0;cd gitsrc/vimrc
+: 1515235871:0;ls
+: 1515235877:0;gst
+: 1515235884:0;ls
+: 1515235886:0;la
+: 1515235917:0;git rm .bashrc .bashrc_re .tmux.conf cb_color.conf
+: 1515235923:0;git rm .bashrc .bashrc_me .tmux.conf cb_color.conf
+: 1515235943:0;git checkout -- .bashrc
+: 1515235947:0;git rm .bashrc
+: 1515235977:0;git rm .bashrc .bashrc_me .tmux.conf cb_color.conf
+: 1515235980:0;gst
+: 1515235991:0;la
+: 1515236009:0;git rm .mshell/
+: 1515236014:0;git rm -r .mshell/
+: 1515236023:0;git pull
+: 1515236040:0;git push origin master
+: 1515236060:0;cd ..
+: 1515236072:0;git pull
+: 1515236077:0;cd vimrc
+: 1515236080:0;git pull
+: 1515236099:0;git checkout -- .bashrc
+: 1515236103:0;git pull
+: 1515236119:0;git commit -m "ÂÉ®ÉÄÈÉπ§"
+: 1515236123:0;git pull
+: 1515236132:0;git push origin master
+: 1515236154:0;cd ..
+: 1515236165:0;rm -rm vimrc
+: 1515236172:0;rm -rf vimrc
+: 1515236185:0;git clone --depth 1 git@github.com:DaSea/vimrc.git
+: 1515236218:0;cd vimrc
+: 1515236219:0;ls
+: 1515236221:0;la
+: 1515236281:0;git rm -r .mshell/
+: 1515236291:0;git rm .powerlevel9k.zshrc .tmux.conf .bashrc*
+: 1515236300:0;git rm .zshrc
+: 1515236339:0;git commit -m "ÂÉ®ÉÄÈÉπ§Â§É∫‰ΩÉπÈÉÅπÔºÉ¨ÁßªÂÉ™®ÂÉ®∞dotfiles"
+: 1515236343:0;git push origin master
+: 1515236363:0;ls
+: 1515236365:0;la
+: 1515236368:0;exit
